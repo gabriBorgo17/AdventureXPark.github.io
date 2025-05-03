@@ -1,0 +1,186 @@
+body{
+    background: linear-gradient(to bottom, rgb(98, 126, 98), rgb(5, 58, 5)); ;
+}
+.up{
+    display: flex;
+    
+    background-color: black;
+}
+header{
+    
+    height: 10vh;
+    width: 40vw;
+    text-align:center;
+    font-size: 2vw;
+    white-space:nowrap; 
+
+}
+
+nav{
+    
+    height: 10vh;
+    width: 60vw;
+    text-align: center;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    
+    height: 150vh;
+    
+}
+
+#intro{
+    display: block;
+    
+    padding: 5vw ;
+    height: 30vh;
+    width: 88vw;
+    text-align: center;
+    font-size: 2vw; 
+    white-space:nowrap; 
+    font-family: "Audiowide", sans-serif;
+
+
+}
+#sfondo{
+
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(175, 25, 25, 0.774) 0%, rgba(10, 10, 151, 0.6) 40%, rgba(65, 124, 73, 0.3) 90%);
+    height: 25vh;
+    padding: 3vh;
+     width: 83vw;
+    font-size: 2vw; 
+   
+}
+#testo{
+    color: rgb(236, 230, 217);
+}
+
+#nome{
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    margin-top: 2.7vh;
+    
+}
+
+.menu{
+    color: whitesmoke;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: x-large;
+    margin-top: 3.2vh;
+}
+table{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    width: 33%;
+    text-align: center;
+    padding: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-top: 1vh;
+}
+#paintball{
+    
+    background-image: url(paintball.png);
+    background-size: cover;
+    width: 30vw;
+    height: 50vh;
+    transition: 200ms;
+    text-align: center;
+    font-family: "Copperplate", fantasy,serif;
+    color: rgb(193, 211, 35);
+    font-size: 2vw; /* adatta la dimensione al 4% della larghezza della finestra */ 
+    
+}
+#paintball:hover{
+
+    transition: 200ms;
+    width: 33vw;
+    height: 53vh;
+    
+}
+#moto{
+    
+    background-image: url(moto.jpg);  
+    background-size: cover;
+    transition: 200ms;
+    width: 30vw;
+    height: 50vh;
+    text-align: center;
+    font-family: "Copperplate", fantasy,serif;
+    color: rgb(193, 211, 35);
+    font-size: 2vw; /* adatta la dimensione al 4% della larghezza della finestra */
+}
+#moto:hover{
+    transition: 200ms;
+    width: 33vw;
+    height: 53vh;
+}
+#lasergame{
+    background-image: url(lasergame.jpg); 
+    background-size: cover;
+    transition: 200ms;
+    width: 30vw;
+    height: 50.44vh;
+    text-align: center;
+    font-family: "Copperplate", fantasy,serif;
+    color: rgb(193, 211, 35);
+    font-size: 2vw; /* adatta la dimensione al 4% della larghezza della finestra */
+
+}
+
+
+#lasergame:hover{
+    transition: 200ms;
+    width: 33vw;
+    height: 53.44vh;
+}
+a{
+    text-decoration: none;
+    color: rgb(193, 211, 35);
+    font-size: 2vw; /* adatta la dimensione al 4% della larghezza della finestra */
+}
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+    height: 20vh;
+    padding: 3vh;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2vw;
+}
+
+.footer-content p {
+    margin-bottom: 1vh;
+    font-size: 1.4vw;
+}
+
+.social-links a {
+    margin: 0 1.5vw;
+    color: #E1306C;
+    text-decoration: none;
+    font-size: 1.3vw;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.social-links i {
+    margin-right: 0.5vw;
+}
